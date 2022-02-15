@@ -4,3 +4,8 @@ git remote -v 						--> show remote branch
 git remote remove <origin>				--> removing remote server ORIGIN
 git remote add <origin>					--> adding new remote server with name ORIGIN
 git push --set-upstream origin master			--> setting remote as upstream
+git stash save [name]					--> saving in stash
+git stash list						--> list of savings
+git stash pop 						--> (remove from stash)
+git stash apply						--> takes and leaves in stash
+git stash drop						--> clear stash
